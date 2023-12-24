@@ -5,7 +5,7 @@ export default {
         "./src/**/*.{vue,js,ts,jsx,tsx}"
     ],
     theme: {
-    extend: 
+        extend:
         {
             colors: {
                 'violet': 'hsl(257, 40%, 49%)',
@@ -13,11 +13,17 @@ export default {
 
             },
             fontFamily: {
-               'poppins': [ 'Poppins', 'sans-serif' ]
+                'poppins': ['Poppins', 'sans-serif']
             },
 
             boxShadow: {
-              DEFAULT: '1px 1px 2px black'}
+                DEFAULT: '1px 1px 2px black'
+            }
+        },
+        screens: {
+            'xs': '375px',
+            'sm': '640px',
+            'md': '768px',
         },
     },
     plugins: [],
